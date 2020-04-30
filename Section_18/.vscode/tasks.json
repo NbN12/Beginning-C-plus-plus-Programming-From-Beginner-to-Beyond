@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+        "type": "shell",
+        "label": "build and debug",
+        "command": "C:\\MinGW\\bin\\g++.exe",
+        "args": [
+            "-g",
+            "${workspaceFolder}\\*.cpp",
+            "-o",
+            "${workspaceFolder}\\main.exe"
+        ],
+        "options": {
+            "cwd": "C:\\MinGW\\bin"
+        }
+    },
+    {
+        "type": "shell",
+        "label": "build and run",
+        "command": "",
+        "args": [
+            "g++",
+            "-g",
+            "${workspaceFolder}\\*.cpp",
+            "-o",
+            "${workspaceFolder}\\main.exe",
+            ";",
+            ".\\main.exe"
+        ],
+        "problemMatcher": [
+            "$gcc"
+        ],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    }
+],
+  "version": "2.0.0"
+}
