@@ -2,8 +2,14 @@
   "configurations": [
     {
       "name": "Win32",
-      "includePath": ["${workspaceFolder}/**"],
-      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
       "windowsSdkVersion": "10.0.18362.0",
       "compilerPath": "${env.MINGW}\\bin\\g++.exe",
       "cStandard": "c11",
