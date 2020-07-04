@@ -1,5 +1,5 @@
 # Challenge-Solutions-CPP-Course
-This is all the challenge solutions for course [Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
+Each section contains solution for course [Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
 ### [Section 4: Getting Started](./Section_4/)
 ### [Section 6: Variables and Constants](./Section_6/)
 ### [Section 7: Arrays and Vectors](./Section_7)
